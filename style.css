@@ -1,5 +1,7 @@
 * {
     margin: 0; padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* header */
@@ -7,7 +9,25 @@
 header {
     height: 80px;
     background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.nav-items {
+    display: flex;
+    color: #fff;
+}
+
+.nav-items li {
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.nav-items a {
+    color: #fff;
+}
+
 
 /* section main */
 
