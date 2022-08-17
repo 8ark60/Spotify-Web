@@ -1,0 +1,24 @@
+* {
+    margin: 0; padding: 0;
+}
+
+/* header */
+
+header {
+    height: 80px;
+    background-color: #000;
+}
+
+/* section main */
+
+.main {
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+}
+
+/* footer */
+
+footer {
+    height: 530px;
+    background-color: #000;
+}
